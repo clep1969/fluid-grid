@@ -1,0 +1,87 @@
+/*CSS Document	*/
+
+div.banner	{
+	width: 100%;
+	clear: both;
+}
+
+div.row	{
+	width: 97.4%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	margin-left: 1.3%;
+	margin-right: 1.3%;
+	float: left;
+}
+
+div.columns	{
+	margin: 0.5em 0;
+	float: left;
+}
+
+div.last	{
+	margin-right: 0;
+	clear: right;
+}
+
+div.twelve	{
+	width: 100%;
+	margin-right: 0;
+}
+
+div.row div.columns	{	margin-right: 2.15%;	}
+
+div.one	{	width: 6.15%;	}
+
+div.two	{	width: 14.5%;	}
+
+div.three	{	width: 22.8%;	}	/*	Comfortable break point for smaller phones	*/
+
+div.four	{	width: 31.1%;	}
+
+div.five	{	width: 39.4%;	}	/*	Comfortable break point for smartphone portrait	*/
+
+div.six	{	width: 47.7%;	}
+
+div.seven	{	width: 56%;	}	/*	Comfortable break point for smartphone landscape/small tablets portrait	*/
+
+div.eight	{	width: 64.3%;	}
+
+div.nine	{	width: 72.6%;	}
+
+div.ten	{	width: 80.9%;	}	/*	Comfortable break point for small tablet landscape	*/
+
+div.eleven	{	width: 89.2%;	}
+
+div.twelve	{
+	width: 97.5%;
+	margin-right: 0;
+	clear: both;
+}
+
+div.offset-by-one	{	margin-left: 8.3%;	}
+
+div.offset-by-two	{	margin-left: 16.65%;	}	/*	smaller phones will reset every two column offsets	*/
+
+div.offset-by-three	{	margin-left: 24.95%;	}
+
+div.offset-by-four	{	margin-left: 33.25%;	}	/*	smartphones (portrait) will reset every four column offsets	*/
+
+div.offset-by-five	{	margin-left: 41.55%;	}
+
+div.offset-by-six	{	margin-left: 49.85%;	}	/*	smartphones (landscape) and small tablets will reset at seven and thirteen offsets	*/
+
+div.offset-by-seven	{	margin-left: 58.15%;	}
+
+div.offset-by-eight	{	margin-left: 66.45%;	}
+
+div.offset-by-nine	{	margin-left: 74.75%;	}	/*	small tablets will reset at tenth offset	*/
+
+div.offset-by-ten	{	margin-left: 83.05%;	}
+
+div.offset-by-eleven	{	margin-left: 91.35%;	}	/*	tablets will reset at twelfth offset	*/
+
+div.last	{	margin-right: 0;	}
+
+/*	CSS Document	*/

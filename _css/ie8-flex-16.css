@@ -1,0 +1,95 @@
+div.banner	{
+	width: 100%;
+	clear: both;
+}
+
+div.row	{
+	width: 97.60%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	margin-left: 1.20%;
+	margin-right: 1.20%;
+	float: left;
+}
+
+div.columns	{
+	margin: 0.5em 0;
+	float: left;
+	margin-right: 2.08%;
+}
+
+div.last	{
+	margin-right: 0;
+	clear: right;
+}
+
+div.sixteen	{
+	width: 100%;
+	margin-right: 0;
+}
+
+div.one	{	width: 4.27%;	}
+
+div.two	{	width: 10.62%;	}
+
+div.three	{	width: 16.97%;	}	/*	Comfortable break point for smaller phones	*/
+
+div.four	{	width: 23.32%;	}
+
+div.five	{	width: 29.67%;	}	/*	Comfortable break point for smartphone portrait	*/
+
+div.six	{	width: 36.02%;	}
+
+div.seven	{	width: 42.37%;	}	/*	Comfortable break point for smartphone landscape/small tablets portrait	*/
+
+div.eight	{	width: 48.72%;	}
+
+div.nine	{	width: 55.07%;	}
+
+div.ten	{	width: 61.42%;	}	/*	Comfortable break point for small tablet landscape	*/
+
+div.eleven	{	width: 67.77%;	}
+
+div.twelve	{	width: 74.12%;	}	/*	Comfortable break point for tablet portrait	*/
+
+div.thirteen	{	width: 80.47%;	}
+
+div.fourteen	{	width: 86.82%;	}
+
+div.fifteen	{	width:	93.17%;	}
+
+div.sixteen	{
+	width: 100%;
+	margin-right: 0;
+}
+
+div.offset-by-one	{	margin-left: 6.35%;	}
+
+div.offset-by-two	{	margin-left: 12.83602150537634%;	}	/*	smaller phones will reset every two column offsets	*/
+
+div.offset-by-three	{	margin-left: 19.25403225806452%;	}
+
+div.offset-by-four	{	margin-left: 25.67204301075269%;	}	/*	smartphones (portrait) will reset every four column offsets	*/
+
+div.offset-by-five	{	margin-left: 32.09005376344086%;	}
+
+div.offset-by-six	{	margin-left: 38.50806451612903%;	}	/*	smartphones (landscape) and small tablets will reset at seven and thirteen offsets	*/
+
+div.offset-by-seven	{	margin-left: 44.92607526881721%;	}
+
+div.offset-by-eight	{	margin-left: 51.34408602150538%;	}
+
+div.offset-by-nine	{	margin-left: 57.76209677419355%;	}	/*	small tablets will reset at tenth offset	*/
+
+div.offset-by-ten	{	margin-left: 64.18010752688172%;	}
+
+div.offset-by-eleven	{	margin-left: 70.5981182795699%;	}	/*	tablets will reset at twelfth offset	*/
+
+div.offset-by-twelve	{	margin-left: 77.01612903225807%;	}
+
+div.offset-by-thirteen	{	margin-left: 83.43413978494624%;	}
+
+div.offset-by-fourteen	{	margin-left: 89.85215053763441%;	}
+
+div.offset-by-fifteen	{	margin-left: 96.27016129032259%;	}

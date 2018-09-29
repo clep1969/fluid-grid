@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Testing the Responsive Grid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="noindex, nofollow" />
+	<style>
+		div.columns	{	background-color: #ddd;	}
+	</style>
+	<link rel="stylesheet" href="_css/flexible-grid-12-columns.css" type="text/css" media="all and (min-width: 30em)" />
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	<link rel="stylesheet" href="_css/ie8-flex-12.css" media="all" />
+	<![endif]-->
+	<link rel="stylesheet" href="_css/styles.css" media="screen" />
+</head>
+
+<body>
+	<div id="header" class="banner" role="banner">
+		<h1>Responsive Grid</h1>
+		<p>This page serves to demonstrate a fluid, responsive grid system in 12- and 16-column flavors. Using media queries, the page reflows and serves screens from 240px wide to full-size desktop resolutions. IE 7 and 8 are served a separate stylesheet that preserves the fluid layout but does not support media queries. (I will continue working on integrating these into the IE stylesheets using respond.js.)</p>
+	</div>
+	<div class="row">
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns">1 Column</div>
+		<div class="one columns last">1 Column</div>
+	</div>
+	<div class="row">
+		<div class="two columns">2 Columns</div>
+		<div class="two columns">2 Columns</div>
+		<div class="two columns">2 Columns</div>
+		<div class="two columns">2 Columns</div>
+		<div class="two columns">2 Columns</div>
+		<div class="two columns last">2 Columns</div>
+	</div>
+	<div class="row">
+		<div class="three columns">3 Columns</div>
+		<div class="three columns">3 Columns</div>
+		<div class="three columns">3 Columns</div>
+		<div class="three columns last">3 Columns</div>
+	</div>
+	<div class="row">
+		<div class="four columns">4 Columns</div>
+		<div class="four columns">4 Columns</div>
+		<div class="four columns last">4 Columns</div>
+	</div>
+	<div class="row">
+		<div class="five columns">5 Columns</div>
+		<div class="five columns">5 Columns</div>
+		<div class="two columns last">2 Columns</div>
+	</div>
+	<div class="row">
+		<div class="six columns">6 Columns</div>
+		<div class="six columns last">6 Columns</div>
+	</div>
+	<div class="row">
+		<div class="seven columns">7 Columns</div>
+		<div class="five columns last">5 Columns</div>
+	</div>
+	<div class="row">
+		<div class="eight columns">8 Columns</div>
+		<div class="four columns last">4 Columns</div>
+	</div>
+	<div class="row">
+		<div class="nine columns">9 Columns</div>
+		<div class="three columns last">3 Columns</div>
+	</div>
+	<div class="row">
+		<div class="ten columns">10 Columns</div>
+	</div>
+	<div class="row">
+		<div class="eleven columns">11 Columns</div>
+		<div class="one columns last">1 Columns</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">12 Columns</div>
+	</div>
+</body>
+
+</html>
